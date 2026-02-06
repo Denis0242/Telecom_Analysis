@@ -4,7 +4,7 @@
 
 Clone the repo:
 ``` 
-git clone https://github.com/Desmondonam/Tellco_Analysis.git 
+git clone https://github.com/Denis0242/Telecom_Analysis.git
 
 cd Tellco_Analysis
 
@@ -120,7 +120,7 @@ pip or conda package manager
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/telecom-analytics.git
+git clone https://github.com/Denis0242/Telecom_Analysis.git
 cd telecom-analytics
 
 # Install dependencies
@@ -252,11 +252,12 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 📧 Contact
 
-**Your Name** - [desmondonam@gmail.com](mailto:desmondonam@gmail.com)  
+**Your Name** - [vantjohnn@gmail.com](mailto:vantjohnn@gmail.com)  
 **Portfolio**: [portfolio.com](https://yourportfolio.com)  
-**LinkedIn**: [linkedin.com/in/desmondonam](https://www.linkedin.com/in/desmond-onam-b64702175/)
+**LinkedIn**: [LinkedIn: linkedin.com/in/denis-agyapong](https://www.linkedin.com/in/denis-agyapong )
 
 ---
 
-⭐ **Star this repository if you found it helpful!** ⭐
+
+
 
