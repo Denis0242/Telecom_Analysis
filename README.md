@@ -1,6 +1,6 @@
 ﻿# Telecom_Analysis
 
-![Telecom Analytics Dashboard](image.png)
+![Telecom Analytics Dashboard](preview.png)
 
 # 📊 Telecom Customer Analytics Dashboard
 
@@ -47,7 +47,6 @@ Key product questions this project helps answer:
 ---
 
 ## 🧩 Core Analysis Modules
-
 ### 1. User Overview Analysis
 Focuses on broad customer and dataset understanding:
 - dataset quality checks
@@ -108,163 +107,104 @@ Telecom_Analysis/
 ├── requirements.txt
 ├── uv.lock
 └── README.md
-🛠️ Tech Stack
-Core Libraries
-
-Python
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Visualization
-
-Plotly
-
-Matplotlib
-
-Streamlit
-
-Workflow
-
-Jupyter Notebooks
-
-Python scripts
-
-GitHub for version control
-
-uv / pip environment management
-
-📦 Requirements
-
-Your current requirements.txt includes:
-
-pandas
-numpy
-streamlit
-matplotlib
-plotly
-scikit-learn
-
-Install them with:
-
-pip install -r requirements.txt
-⚙️ Quick Start
-Clone the repository
-git clone https://github.com/Denis0242/Telecom_Analysis.git
-cd Telecom_Analysis
-Create and activate a virtual environment
-Using uv
-uv venv --python 3.11
-
-Windows
-
-.venv\Scripts\activate
-
-Mac/Linux
-
-source .venv/bin/activate
-
-Then install dependencies:
-
-pip install -r requirements.txt
-Run the dashboard
-streamlit run app.py
-📊 Dashboard Highlights
-
-The Streamlit app currently supports:
-
-loading the default dataset from Data/cleaned_data.csv
-
-optional upload of CSV or Excel telecom datasets
-
-dataset overview metrics
-
-missing value inspection
-
-handset analysis
-
-user behavior analysis
-
-application usage analysis
-
-engagement distributions
-
-outlier detection
-
-engagement clustering using KMeans
-
-a multi-page dashboard flow:
-
-User Overview Analysis
-
-User Engagement Analysis
-
-Experience Analysis
-
-Satisfaction Analysis
-
-📁 Available Data Assets
-
-The Data/ folder currently contains multiple assets that support different parts of the analysis:
-
-cleaned_data.csv — main cleaned dataset used by the dashboard
-
-data.csv — original/base telecom dataset
-
-user_engagement.csv — engagement-focused derived data
-
-user_experience_metrics.csv — experience-focused derived data
-
-Week1_challenge_data_source.xlsx — source workbook version
-
-This is useful because it shows a workflow from raw/source data → cleaned data → targeted analysis outputs → dashboard delivery.
-
-🧠 Modeling and Analytics Approach
-
-This project currently demonstrates several important Product Data Science skills:
-
-Exploratory Data Analysis
-
-profiling user behavior
-
-identifying missing data
-
-comparing usage across app categories
-
-understanding device patterns and customer activity
-
-Feature Aggregation
-
-session counts
-
-total duration
-
-total traffic
-
-app-level data usage features
-
-Behavioral Segmentation
-
-scaling and normalization
-
-KMeans clustering
-
-elbow-method visualization
-
-cluster-level interpretation
-
-Dashboard Communication
-
-business-readable metrics
-
-visual summaries for stakeholder consumption
-
-interactive filtering and drill-down style exploration
-
-💼 Why This Project Matters
+---
+
+## 🛠️ Tech Stack
+**Core Libraries**
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Visualization
+- Plotly
+- Matplotlib
+- Streamlit
+---
+
+**Workflow**
+- Jupyter Notebooks
+- Python scripts
+- GitHub for version control
+- uv / pip environment management
+
+---
+# ⚙️ Quick Start
+- Clone the repository
+- git clone https://github.com/Denis0242/Telecom_Analysis.git
+- cd Telecom_Analysis
+- Create and activate a virtual environment
+- Using uv
+- uv venv --python 3.11
+
+**Windows:**
+- .venv\Scripts\activate
+
+**Mac/Linux**
+- source .venv/bin/activate
+
+**Then install dependencies:**
+
+- pip install -r requirements.txt
+**Run the dashboard**
+- streamlit run app.py
+
+---
+
+# 📊 Dashboard Highlights
+- The Streamlit app currently supports:
+- loading the default dataset from Data/cleaned_data.csv
+- optional upload of CSV or Excel telecom datasets
+- dataset overview metrics
+- missing value inspection
+- handset analysis
+- user behavior analysis
+- application usage analysis
+- engagement distributions
+- outlier detection
+- engagement clustering using KMeans
+
+---
+**A multi-page dashboard flow:**
+- User Overview Analysis
+- User Engagement Analysis
+- Experience Analysis
+- Satisfaction Analysis
+
+---
+# 📁 Available Data Assets
+**The Data/ folder currently contains multiple assets that support different parts of the analysis:**
+- cleaned_data.csv — main cleaned dataset used by the dashboard
+- data.csv — original/base telecom dataset
+- user_engagement.csv — engagement-focused derived data
+- user_experience_metrics.csv — experience-focused derived data
+- Week1_challenge_data_source.xlsx — source workbook version
+
+_This is useful because it shows a workflow from raw/source data → cleaned data → targeted analysis outputs → dashboard delivery_.
+
+--
+# 🧠 Modeling and Analytics Approach
+_This project currently demonstrates several important Product Data Science skills:_
+- Exploratory Data Analys
+- profiling user behavior
+- identifying missing data
+- comparing usage across app categories
+- understanding device patterns and customer activity
+- Feature Aggregation
+- session counts
+- total duration
+- total traffic
+- app-level data usage features
+- Behavioral Segmentation
+- scaling and normalization
+- KMeans clustering
+- elbow-method visualization
+- cluster-level interpretation
+- Dashboard Communication
+- business-readable metrics
+- visual summaries for stakeholder consumption
+- interactive filtering and drill-down style exploration
+
+# 💼 Why This Project Matters
 
 This project is valuable for a Product Data Scientist portfolio because it shows the ability to:
 
