@@ -3,7 +3,12 @@ name = "telecom-analysis"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+<<<<<<< HEAD
 requires-python = ">=3.14"
 dependencies = [
     "altair>=6.0.0",
 ]
+=======
+requires-python = ">=3.11"
+dependencies = []
+>>>>>>> d7470eb0b12fb9364a344082cf58cfa15191220d
