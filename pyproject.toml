@@ -1,14 +1,15 @@
 [project]
 name = "telecom-analysis"
 version = "0.1.0"
-description = "Add your description here"
+description = "Product data science dashboard for telecom analytics, covering user behavior, engagement, segmentation, and data-driven insights."
 readme = "README.md"
-<<<<<<< HEAD
-requires-python = ">=3.14"
+requires-python = ">= 3.11"
 dependencies = [
-    "altair>=6.0.0",
+    pandas
+numpy
+streamlit
+matplotlib
+plotly
+scikit-learn
+altair
 ]
-=======
-requires-python = ">=3.11"
-dependencies = []
->>>>>>> d7470eb0b12fb9364a344082cf58cfa15191220d
