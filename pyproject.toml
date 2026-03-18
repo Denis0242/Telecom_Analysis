@@ -5,11 +5,11 @@ description = "Product data science dashboard for telecom analytics, covering us
 readme = "README.md"
 requires-python = ">= 3.11"
 dependencies = [
-    pandas
-numpy
-streamlit
-matplotlib
-plotly
-scikit-learn
+    pandas,
+numpy,
+streamlit,
+matplotlib,
+plotly,
+scikit-learn,
 altair
 ]
