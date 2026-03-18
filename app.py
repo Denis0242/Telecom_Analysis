@@ -27,10 +27,10 @@ def apply_custom_theme():
         """
         <style>
         :root {
-            --vf-red: #e60000;
-            --vf-dark-red: #b30000;
-            --vf-light-red: #fff1f1;
-            --teal-accent: #0f9d9a;
+            --primary-teal: #0f9d9a;
+            --primary-teal-dark: #0b7f7c;
+            --primary-teal-light: #e6f7f7;
+            --teal-accent: #14b8b5;
             --magenta-accent: #c2185b;
             --navy-text: #1f2937;
             --soft-gray: #f7f8fa;
@@ -44,7 +44,7 @@ def apply_custom_theme():
         }
 
         section[data-testid="stSidebar"] {
-            background: linear-gradient(180deg, #e60000 0%, #b30000 55%, #7a0019 100%);
+            background: linear-gradient(180deg, #0f9d9a 0%, #0b7f7c 55%, #075e5b 100%);
         }
 
         section[data-testid="stSidebar"] * {
@@ -65,7 +65,7 @@ def apply_custom_theme():
         }
 
         div[data-testid="stMetricLabel"] {
-            color: var(--vf-dark-red) !important;
+            color: var(--primary-teal-dark) !important;
             font-weight: 700;
         }
 
@@ -74,12 +74,12 @@ def apply_custom_theme():
         }
 
         h1, h2, h3 {
-            color: var(--vf-dark-red);
+            color: var(--primary-teal-dark);
             font-weight: 800;
         }
 
         .dashboard-banner {
-            background: linear-gradient(90deg, #e60000 0%, #0f9d9a 55%, #c2185b 100%);
+            background: linear-gradient(90deg, #0f9d9a 0%, #14b8b5 55%, #c2185b 100%);
             padding: 1rem 1.25rem;
             border-radius: 16px;
             color: white;
@@ -115,7 +115,7 @@ def apply_custom_theme():
         }
 
         .stButton>button {
-            background-color: var(--vf-red);
+            background-color: var(--primary-teal);
             color: white;
             border: none;
             border-radius: 10px;
@@ -124,7 +124,7 @@ def apply_custom_theme():
         }
 
         .stButton>button:hover {
-            background-color: var(--vf-dark-red);
+            background-color: var(--primary-teal-dark);
             color: white;
         }
 
@@ -153,7 +153,7 @@ def apply_custom_theme():
         hr {
             border: none;
             height: 1px;
-            background: linear-gradient(90deg, #e60000, #0f9d9a, #c2185b);
+            background: linear-gradient(90deg, #0f9d9a, #14b8b5, #c2185b);
             margin: 1.2rem 0;
         }
         </style>
@@ -185,7 +185,7 @@ APP_PAIRS = {
     "other": ("other_dl_(bytes)", "other_ul_(bytes)"),
 }
 
-CHART_COLORS = ["#e60000", "#0f9d9a", "#c2185b", "#ff8c42", "#6c63ff", "#26a69a", "#8e24aa"]
+CHART_COLORS = ["#0f9d9a", "#14b8b5", "#c2185b", "#ff8c42", "#6c63ff", "#26a69a", "#8e24aa"]
 
 
 # -----------------------------
@@ -238,8 +238,8 @@ def apply_chart_theme(fig, height=400):
         paper_bgcolor="white",
         plot_bgcolor="white",
         font=dict(color="#1f2937"),
-        title_font=dict(color="#b30000", size=18),
-        legend_title_font=dict(color="#b30000"),
+        title_font=dict(color="#0b7f7c", size=18),
+        legend_title_font=dict(color="#0b7f7c"),
         margin=dict(l=20, r=20, t=60, b=20),
     )
     return fig
@@ -674,7 +674,7 @@ def user_engagement_analysis(df: pd.DataFrame | None):
             title="Top Users by Sessions",
             labels={"x": "Session Count", "y": "User"},
             color=top_sessions["sessions_frequency"],
-            color_continuous_scale=["#ffe5e5", "#e60000"],
+            color_continuous_scale=["#e6f7f7", "#0f9d9a"],
         )
         st.plotly_chart(apply_chart_theme(fig_sessions, height=320), use_container_width=True)
         st.dataframe(top_sessions[["sessions_frequency"]], use_container_width=True)
@@ -738,7 +738,7 @@ def user_engagement_analysis(df: pd.DataFrame | None):
             nbins=30,
             title=f"Distribution of {metric_option.replace('_', ' ').title()}",
             labels={"x": metric_option.replace("_", " ").title(), "y": "Frequency"},
-            color_discrete_sequence=["#e60000"],
+            color_discrete_sequence=["#0f9d9a"],
         )
         st.plotly_chart(apply_chart_theme(fig_dist), use_container_width=True)
 
@@ -921,7 +921,7 @@ def user_engagement_analysis(df: pd.DataFrame | None):
             title=f"Top {n_top_users} {selected_app.title()} Users",
             labels={"x": "User ID", "y": f"{selected_app.title()} Usage"},
             color=top_users_app[selected_app],
-            color_continuous_scale=["#ffe5e5", "#e60000"],
+            color_continuous_scale=["#e6f7f7", "#0f9d9a"],
         )
         st.plotly_chart(apply_chart_theme(fig_top_users), use_container_width=True)
     else:
