@@ -1,4 +1,4 @@
-﻿# Telecom_Analysis
+# Telecom_Analysis
 
 ![Telecom Analytics Dashboard](preview.png)
 
@@ -47,6 +47,7 @@ Key product questions this project helps answer:
 ---
 
 ## 🧩 Core Analysis Modules
+
 ### 1. User Overview Analysis
 Focuses on broad customer and dataset understanding:
 - dataset quality checks
@@ -109,7 +110,24 @@ Telecom_Analysis/
 └── README.md
 ---
 
-## 🛠️ Tech Stack
+
+🛠️ Tech Stack
+Core:
+- Python
+- Pandas, NumPy
+- Scikit-learn
+
+Visualization:
+- Plotly
+- Matplotlib
+- Streamlit
+
+Workflow:
+- Jupyter Notebooks
+- GitHub
+- Virtual Environments (uv / pip)
+
+# 🛠️ Tech Stack
 **Core Libraries**
 - Python
 - Pandas
@@ -119,6 +137,7 @@ Telecom_Analysis/
 - Plotly
 - Matplotlib
 - Streamlit
+
 ---
 
 **Workflow**
@@ -128,6 +147,7 @@ Telecom_Analysis/
 - uv / pip environment management
 
 ---
+
 # ⚙️ Quick Start
 - Clone the repository
 - git clone https://github.com/Denis0242/Telecom_Analysis.git
@@ -164,6 +184,7 @@ Telecom_Analysis/
 - engagement clustering using KMeans
 
 ---
+
 **A multi-page dashboard flow:**
 - User Overview Analysis
 - User Engagement Analysis
@@ -171,6 +192,7 @@ Telecom_Analysis/
 - Satisfaction Analysis
 
 ---
+
 # 📁 Available Data Assets
 **The Data/ folder currently contains multiple assets that support different parts of the analysis:**
 - cleaned_data.csv — main cleaned dataset used by the dashboard
@@ -181,7 +203,8 @@ Telecom_Analysis/
 
 _This is useful because it shows a workflow from raw/source data → cleaned data → targeted analysis outputs → dashboard delivery_.
 
---
+---
+
 # 🧠 Modeling and Analytics Approach
 _This project currently demonstrates several important Product Data Science skills:_
 - Exploratory Data Analys
@@ -204,65 +227,48 @@ _This project currently demonstrates several important Product Data Science skil
 - visual summaries for stakeholder consumption
 - interactive filtering and drill-down style exploration
 
-# 💼 Why This Project Matters
+---
 
-This project is valuable for a Product Data Scientist portfolio because it shows the ability to:
+# 💼 Why This Project Matters:
+_This project is valuable for a Product Data Scientist portfolio because it shows the ability to_:
+- translate raw telecom data into business-facing insights
+- connect behavioral metrics to customer segmentation
+- build interactive analytics products with Streamlit
+- combine EDA, ML, and dashboard storytelling in one repo
+- structure analysis work across scripts, datasets, notebooks, and app delivery
 
-translate raw telecom data into business-facing insights
+_It is especially relevant to roles involving_:
+- Product Analytics
+- Customer Analytics
+- Behavioral Analytics
+- Growth Analytics
+- Retention and Segmentation
+- Telecom / digital platform analytics
 
-connect behavioral metrics to customer segmentation
+---
 
-build interactive analytics products with Streamlit
+# 🔭 Suggested Future Enhancements
+_Planned or natural next improvements for this project include_:
+- churn prediction modeling
+- retention cohort analysis
+- feature importance interpretation
+- satisfaction score modeling
+- anomaly detection for telecom usage spikes
+- richer experience metrics
+- business KPI layer
+- executive summary cards
+- deployment-ready Streamlit Cloud optimization
 
-combine EDA, ML, and dashboard storytelling in one repo
+# 🖼️ Preview
 
-structure analysis work across scripts, datasets, notebooks, and app delivery
+_The project includes a dashboard preview image_:
 
-It is especially relevant to roles involving:
+![Telecom Analytics Dashboard](preview.png)
 
-Product Analytics
 
-Customer Analytics
+---
 
-Behavioral Analytics
-
-Growth Analytics
-
-Retention and Segmentation
-
-Telecom / digital platform analytics
-
-🔭 Suggested Future Enhancements
-
-Planned or natural next improvements for this project include:
-
-churn prediction modeling
-
-retention cohort analysis
-
-feature importance interpretation
-
-satisfaction score modeling
-
-anomaly detection for telecom usage spikes
-
-richer experience metrics
-
-business KPI layer
-
-executive summary cards
-
-deployment-ready Streamlit Cloud optimization
-
-🖼️ Preview
-
-The project includes a dashboard preview image:
-
-![Telecom Analytics Dashboard](image.png)
-
-You can keep this at the top so recruiters immediately see the visual output.
-
-🤝 Author
+# 🤝 Author
 
 **Denis Agyapong**
 
