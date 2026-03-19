@@ -1,6 +1,8 @@
 
 # Telecom_Analysis 
 
+## 🖼️ Dashboard Preview
+
 ![Telecom Analytics Dashboard](preview.png) 
 
 # 📊 Telecom Customer Analytics Dashboard
@@ -88,8 +90,8 @@ Telecom_Analysis/
 ├── Notebooks/
 ├── scripts/
 ├── app.py
-├── requirements.txt
 ├── preview.png
+├── requirements.txt
 └── README.md
 ```
 
