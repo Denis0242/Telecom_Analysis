@@ -2,8 +2,11 @@
 # Telecom_Analysis 
 
 ## 🖼️ Dashboard Preview
+Live App: https://denis0242-telecom-analysis-app-odjz0z.streamlit.app
 
-![Telecom Analytics Dashboard](preview.png) 
+GitHub: https://github.com/Denis0242/Telecom_Analysis
+
+---
 
 # 📊 Telecom Customer Analytics Dashboard
 
@@ -196,7 +199,7 @@ _This shows a full pipeline: raw data → cleaned data → analysis → dashboar
 - combines EDA + ML + storytelling
 - demonstrates end-to-end workflow
 
-_Project-Specific Impact_
+_Project-Specific Impact:_
 - Analyzed user behavior across sessions, devices, and apps  
 - Identified high-usage segments for optimization  
 - Supported product and operational improvements  
