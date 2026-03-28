@@ -196,6 +196,11 @@ _This shows a full pipeline: raw data → cleaned data → analysis → dashboar
 - combines EDA + ML + storytelling
 - demonstrates end-to-end workflow
 
+_Project-Specific Impact_
+- Analyzed user behavior across sessions, devices, and apps  
+- Identified high-usage segments for optimization  
+- Supported product and operational improvements  
+
 _Relevant Roles:_
 - Product Data Scientist
 - Product Analyst
