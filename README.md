@@ -52,6 +52,13 @@ _Key product questions this project helps answer:_
 
 --- 
 
+## 📊 Product Metrics & Impact
+- Defined KPIs to measure performance (e.g., engagement, retention, churn)  
+- Identified trends and behavioral patterns in user/customer data  
+- Highlighted opportunities to improve conversion and reduce churn  
+- Enabled data-driven decision-making through actionable insights  
+
+---
 ## 🧩 Core Analysis Modules 
 ### 1. User Overview Analysis 
 - dataset quality checks
