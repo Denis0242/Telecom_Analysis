@@ -63,6 +63,27 @@ Telecom providers need to understand how users interact with services to:
 - Interactive filtering (device, app, usage)
 - Traffic distribution visualization
 - Session behavior trends
+  
+---
+
+## 📊 Dashboard Preview
+
+###  Device Usage Breakdown
+![Devices](assets/Devices.png)
+
+Analyzes user activity across different device types.
+
+---
+### User Activity Distribution
+![Distribution](assets/Distribution.png)
+
+Shows distribution of user sessions and data usage to identify behavioral patterns.
+
+---
+### Outlier Detection
+![Outliers](assets/Outliers.png)
+
+Identifies abnormal usage patterns for further investigation.
 
 ---
 
